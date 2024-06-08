@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assests/img/backgroung.jpg");
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1301px, 100vw);
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 124px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 5%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-style: oblique;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.btn {
+    padding: 3px 8px;
+    color: white;
+    font-weight: 400;
+    background-color: rgba(246, 247, 251, 0);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+    height: 50px;
+    
+}
+
+.hero-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 17px;
+    
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgb(246, 238, 238, 0.5);
+    height: 50x;
+}
+
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    
+
+
+}
+
+.seperation {
+    height: 4px;
+    background-color: rgb(53, 51, 51);
+}
+
+.text1{
+    color: white;
+    margin-top: 170px;
+    margin-left: 50px;
+    
+   
+}
+
+.text2{
+    
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.text3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+
+}
+
+.first{
+    display: flex;
+}
+
+.secImg img{
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+    margin-top: 50px;
+}
+
+.secImg{
+    position: relative;
+}
+
+.secImg video{
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+    font-size: 24px;
+}
+
+.faqbox{
+    transition: all 1s ease-out;
+    display: flex;
+    background-color: #2d2d2d;
+    justify-content: space-between;
+    padding: 16px;
+    max-width: 111vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+.faqbox:hover{
+    background-color: rgba(128, 128, 128, 0.249);
+}
+
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+
+.faqbox svg{
+    color: white;
+}
+
+.divText{
+    display: grid;
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.txtmail{
+    
+        padding: 7px 101px 8px 14px;
+        color: white;
+        font-weight: 900;
+        font-size: 12px;
+        border-radius: 4px;
+        background-color: rgba(23, 23, 23, 0.7);
+        border: 1px solid rgb(246, 238, 238, 0.5);
+        height: 35px;
+
+        
+    
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    
+    
+    
+}
+
+.footerItem{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+footer{
+    color: white;
+    max-width: 90vw;
+    margin:auto;
+    padding: 14px;
+}
+footer .question{
+   padding: 34px 0;
+    
+
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
